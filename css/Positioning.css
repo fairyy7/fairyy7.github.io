@@ -1,0 +1,61 @@
+/*
+
+RELATIVE POSITION- IS POSITIONING WTR TO IT'S ACTUALLY PLACE
+
+.top-container{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position:relative;
+    left: 200px;
+}
+
+.middle{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+.bottom{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 200px;
+} */
+
+/* ABSOLUTE POSITION - IS POSITIONING WTR TO ITS BODY */
+
+body{
+    margin: 0px;
+}
+
+.top-container{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+}
+
+.middle{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top:100px;
+    left: 100px;
+}
+
+.bottom{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+}
